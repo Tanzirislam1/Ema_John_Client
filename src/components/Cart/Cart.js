@@ -3,6 +3,8 @@ import './Cart.css';
 
 const Cart = (props) => {
     const { cart } = props;
+    /* cart add kore onno page e gale cart abar 0 hoye jacche tai amra console kore cart add kore dekhtase page onojai cart change hocche aita hoyoar kotha nh aita hocche karon amra pagination use kore cart add kortase */
+    console.log(cart);
     console.log(props.children);
     let total = 0;
     let shipping = 0;
